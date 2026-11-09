@@ -31,7 +31,9 @@ jobs:
       - name: Check formatting
         run: npm run lint:prettier
       - name: Audit al-folio configuration
-        run: bundle exec al-folio upgrade audit --no-fail
+        run: |
+          bundle exec al-folio upgrade audit --no-fail
+          bundle exec al-folio upgrade overrides audit --fail-on-stale
       - name: Build website
         env:
           JEKYLL_ENV: production

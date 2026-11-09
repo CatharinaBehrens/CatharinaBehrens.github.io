@@ -42,4 +42,4 @@ bundle exec al-folio upgrade audit --no-fail
 bundle exec jekyll build --baseurl ""
 ```
 
-Theme source: al-folio upstream commit `8158dd07b40eda745da47a55a8a711332286dbf5`. The upstream MIT license is retained in `LICENSE`. Theme runtime files are supplied by the pinned gems; no local runtime overrides are used.
+Theme source: al-folio upstream commit `8158dd07b40eda745da47a55a8a711332286dbf5`. The upstream MIT license is retained in `LICENSE`. Theme runtime files are supplied by the pinned gems. The local `assets/css/main.scss` override configures the accent as `#768C3F` for both light and dark mode, while retaining the gem's styles. `.al-folio-overrides.yml` records the reviewed upstream version and checksums; the workflow audits it for drift.
