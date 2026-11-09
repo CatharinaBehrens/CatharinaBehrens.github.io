@@ -6,7 +6,7 @@ nav: true
 nav_order: 3
 ---
 
-[View my CV (PDF on Google Drive)](https://drive.google.com/file/d/1R9BsRwCkFhTE0khcHFTsCB4V1urIpDJF/view)
+[Download my CV (PDF)]({{ '/assets/pdf/CV_behrens.pdf' | relative_url }})
 
 ## Education
 

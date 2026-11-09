@@ -16,7 +16,7 @@ An academic website built with [al-folio](https://github.com/alshedivat/al-folio
 
 To add a portrait, upload it to `assets/img/` and set `profile.image` in `_pages/about.md` to its filename.
 
-The initial biography, education, research interests, and CV link are based on the [RFBerlin staff profile](https://www.rfberlin.com/staff/catharina-behren/). Confirm these details when personalizing the site. No sample papers or invented contact details are included.
+The biography, research projects, and contact information are personalized with Catharina's supplied details. The current CV is stored at `assets/pdf/CV_behrens.pdf`; replace that file to update the download without changing its links. No sample papers or invented contact details are included.
 
 ## Publishing
 
