@@ -1,6 +1,4 @@
 main:
-- title: Research
-  url: /#my-research
 - title: CV
   url: /assets/pdf/CV_behrens.pdf
 - title: Contact
