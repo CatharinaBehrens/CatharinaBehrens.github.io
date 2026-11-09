@@ -1,0 +1,56 @@
+name: Build and deploy academic website
+
+on:
+  push:
+    branches: [main, academic-pages]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: academic-pages-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.3.5"
+          bundler-cache: true
+      - name: Build Academic Pages
+        env:
+          JEKYLL_ENV: production
+        run: bundle exec jekyll build --baseurl ""
+      - name: Verify website pages and assets
+        run: |
+          test -s _site/index.html
+          test -s _site/research/index.html
+          test -s _site/cv/index.html
+          test -s _site/contact/index.html
+          test -s _site/assets/css/main.css
+          test -s _site/assets/js/main.min.js
+          test -s _site/assets/pdf/CV_behrens.pdf
+          grep -q 'Housing Market Tightness and Fertility' _site/research/index.html
+          grep -q '#768c3f' _site/assets/css/main.css
+          ! grep -q 'Your Sidebar Name' _site/index.html
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site
+  deploy:
+    if: github.ref == 'refs/heads/main'
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
