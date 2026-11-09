@@ -4,11 +4,11 @@ first_name: Catharina
 middle_name: ""
 last_name: Behrens
 contact_note: ""
-description: Catharina Behrens — economics researcher working on labour economics and migration.
+description: Catharina Behrens — economics researcher working on labor, gender, and fertility.
 footer_text:
   Powered by <a href="https://jekyllrb.com/">Jekyll</a> and <a href="https://github.com/alshedivat/al-folio">al-folio</a>. Hosted on <a href="https://pages.github.com/">GitHub
   Pages</a>.
-keywords: economics, labour economics, migration, Catharina Behrens
+keywords: economics, labor, gender, fertility, Catharina Behrens
 lang: en
 icon: 📚
 apple_touch_icon: null

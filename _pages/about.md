@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Economics · Labour markets · Migration
+subtitle: Labor · Gender · Fertility
 profile:
   align: right
 selected_papers: false
@@ -13,10 +13,6 @@ latest_posts:
   enabled: false
 ---
 
-I am a PhD student in Economics at Humboldt University of Berlin through the Berlin School of Economics, and a Research Officer at [RFBerlin](https://www.rfberlin.com/staff/catharina-behren/).
+I am a PhD candidate and research associate at [RFBerlin](https://www.rfberlin.com/staff/catharina-behren/) and [Humboldt Universität zu Berlin](https://www.wiwi.hu-berlin.de/en/Professorships/vwl/microeconomics/people/cbehrens).
 
-My research interests are in **labour economics**, with a focus on **migration**.
-
-I hold an MPhil in Economics from the University of Oxford (2022) and a BSc in Economics from the University of Warwick (2020).
-
-Explore my [research]({{ '/research/' | relative_url }}), [publications]({{ '/publications/' | relative_url }}), and [CV]({{ '/cv/' | relative_url }}).
+My research interests are Labor, Gender, and Fertility.

@@ -16,4 +16,4 @@ nav_order: 3
 
 ## Research interests
 
-Labour economics and migration.
+Labor, Gender, and Fertility.
