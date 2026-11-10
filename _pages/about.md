@@ -5,7 +5,7 @@ layout: single
 author_profile: true
 ---
 
-I am a PhD candidate in Economics and research associate at [RFBerlin](https://www.rfberlin.com/staff/catharina-behren/) and [Humboldt Universität zu Berlin](https://www.wiwi.hu-berlin.de/en/Professorships/vwl/microeconomics/people/cbehrens).
+I am a PhD candidate in Economics and research associate at [RFBerlin](https://www.rfberlin.com/) and [Humboldt Universität zu Berlin](https://www.wiwi.hu-berlin.de/de).
 
 My research interests are in Labor, Gender, and Fertility.
 
@@ -15,7 +15,7 @@ My research interests are in Labor, Gender, and Fertility.
 
 ### From Equal Access to Unequal Returns: Networks and Gender
 
-With Michelle Hansch, Jan Nimczik, and Alexandra Spitz-Oener.
+With [Michelle Hansch](https://sites.google.com/view/michellehansch/welcome), [Jan Nimczik](https://sites.google.com/site/jannimczik), and [Alexandra Spitz-Oener](https://alexandra-spitzoener.com/).
 
 <details>
 <summary>Abstract</summary>
@@ -24,10 +24,10 @@ With Michelle Hansch, Jan Nimczik, and Alexandra Spitz-Oener.
 
 </details>
 
+### The role of preferences, beliefs, and constraints in fertility decisions
+
+With [Tomáš Jagelka](https://sites.google.com/view/tomasjagelka/home) and [Valentina Melentyeva](https://www.valentinamelentyeva.com/).
+
 ### Room to Grow: Housing Market Tightness and Fertility
 
 _Single authored_
-
-### The role of preferences, beliefs, and constraints in fertility decisions
-
-With Tomáš Jagelka and Valentina Melentyeva.
